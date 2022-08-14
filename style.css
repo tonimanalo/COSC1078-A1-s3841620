@@ -1,0 +1,104 @@
+body {
+    font-family: 'Lora', serif;
+}
+
+h1, h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+#header {
+    background-color: #2e2a30;
+    width: 90%;
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px 10px;
+    margin-bottom: 10px;
+    height: 100px;
+}
+
+.introduction {
+    padding: 25px 35px;
+}
+
+.me {
+    width: 105px;
+    margin-left: -20px;
+    margin-top: -50px;
+    clip-path: circle();
+    height: 148px;
+}
+
+#name h1 {
+    display: inline-block;
+    color: white;
+    margin-top: -20px;  
+    margin-bottom: -6px;
+    margin-left: 15px;
+    font-size: 34px;
+    height: 45px;
+}
+
+#name h2 {
+    display: block;
+    position: absolute;
+    color: white;
+    margin-top: -5px;
+    margin-bottom: 12px;
+    margin-left: 137px;
+    font-size: 20px;
+}
+
+#info {
+    color: white;
+    display: block;
+}
+
+#info ul {
+    list-style-type: none;
+    display: block;
+    font-size: 0.8em;
+    margin: 8px 8px 8px 8px;
+    width: 250px;
+    height: 50px;
+    float: right;
+    margin-top: -50px;
+    margin-right: 10px;
+}
+
+.box {
+    background-color: #eff1f2;
+    width: 90%;
+    max-width: 800px;
+    margin: 30px auto;
+    margin-top: 20px;
+    padding: 10px 10px 10px 10px;
+}
+
+.boxbox {
+    background-color: white;
+    margin: 10px 10px 10px 10px;
+    padding: 3px 3px 3px 3px;
+}
+
+.boxbox h1 {
+    float: inline-start;
+    margin: 1px;
+}
+
+.boxbox p {
+    float: inline-start;
+    margin: 1px;
+}
+
+.job {
+    height: 150px;
+    width: 320px;
+    float: right;   
+}
+
+.personality {
+    float: left;
+    height: 250px;
+    width: 250px;
+}
